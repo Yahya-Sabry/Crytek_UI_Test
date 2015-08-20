@@ -1,0 +1,33 @@
+<!doctype html>
+<!--Configure my basic Angular directive "myDashApp" App -->
+<html class=no-js ng-app=myDashApp>
+    <head>
+        <meta charset=utf-8>
+        <title>Crytek UI Test</title>
+        <meta name=description>
+        <meta name=viewport content="width=device-width">
+        <link rel=stylesheet href=styles/main.css>
+    </head>
+    <body>
+        <div>
+            <div ui-view=""></div>
+        </div>
+        <!--Load angular tool for building our framework to have modular application structure -->
+        <script src=scripts/angular.js></script>
+        <!--Configure my angular App-->
+        <script src=scripts/myDashApp.js></script>
+        <!-- ----------------------------------------------------- -->
+        <!--load app controllers-->
+        <!-- ------------------ -->
+        <!--load dashboard controllers that controle the main dashboard view, account and profile views-->
+        <script src=views/dashboard/dashboardController.js></script>
+        <!--load settings controller for dashboard settings view -->
+        <script src=views/dashboard/settings/settingsController.js></script>
+        <!--load svgImage directive that load external svg and create it's tag to enable colorize the svg-->
+        <script src=views/dashboard/settings/svgImageDirective.js></script>
+        <!--load login controller to authorize any user info-->
+        <script src=views/login/loginController.js></script>
+        <!--load local storage module to access browser storage-->
+        <script src=scripts/local-storage-module-min.js></script>
+    </body>
+</html>

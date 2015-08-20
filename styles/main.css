@@ -1,0 +1,429 @@
+.login-page {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: auto;
+    background: #233040;
+    text-align: center;
+    color: #fff;
+    padding: 3em
+}
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+
+.login-page h1 {
+    font-weight: 300
+}
+
+.login-page h1 small {
+    color: rgba(255, 255, 255, .7)
+}
+
+.login-page .form-group {
+    padding: 8px 0
+}
+
+.login-page .form-content {
+    padding: 40px 0
+}
+
+.dashboard-page {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #233040;
+    color: #fff
+}
+
+.dashboard-page .sub-header {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee
+}
+
+.dashboard-page .navbar-fixed-top {
+    border: 0
+}
+
+.dashboard-page .sidebar .user-avatar {
+    margin: 10px 0
+}
+
+.dashboard-page .sidebar .brand {
+    padding-top: 15px
+}
+
+.dashboard-page .sidebar h2 {
+    font-weight: 300
+}
+
+.dashboard-page .sidebar h2 small {
+    color: rgba(255, 255, 255, .7)
+}
+
+.dashboard-page .sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    padding: 0 20px 20px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #1e2c3a;
+    border-right: 1px solid #17232e
+}
+
+.dashboard-page .nav > li > a:hover, .dashboard-page .nav > li > a:focus {
+    background: #17232e
+}
+
+.dashboard-page .nav-sidebar > li > a {
+    color: #8da3c5;
+    padding-right: 20px;
+    padding-left: 20px
+}
+
+.dashboard-page .nav-sidebar > .active > a, .dashboard-page .nav-sidebar > .active > a:hover, .dashboard-page .nav-sidebar > .active > a:focus {
+    color: #fff;
+    background-color: #17232e
+}
+
+.dashboard-page .main {
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-right: 40px;
+    padding-left: 40px
+}
+
+.dashboard-page .main .jumbotron {
+    background: #FFF;
+    margin-top: 20px
+}
+
+
+.col-md-offset-2 {
+    margin-left: 23.5%
+}
+
+.col-lg-4 {
+    width: 33.33333333%
+}
+
+.col-lg-offset-4 {
+    margin-left: 33.33333333%
+}
+
+.form-control {
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s
+}
+
+.input-underline {
+    background: 0 0;
+    border: none;
+    box-shadow: none;
+    border-bottom: 2px solid rgba(255, 255, 255, .4);
+    color: #FFF;
+    border-radius: 0
+}
+
+.input-lg {
+    height: 46px;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px
+}
+
+.container .jumbotron, .container-fluid .jumbotron {
+    padding-left: 60px;
+    padding-right: 60px;
+    border-radius: 6px;
+}
+
+.col-md-3 {
+    width: 25%
+}
+
+.nav > li, .nav > li > a {
+    position: relative;
+    display: block
+}
+
+.text-center {
+    text-align: center
+}
+
+.user-avatar {
+    width: 125px;
+    height: 125px
+}
+
+.nav > li > a {
+    padding: 10px 15px
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background-color: #eee
+}
+
+.nav > li > a > svg {
+    max-width: 20px;
+    max-height: 20px;
+    fill: #8da3c5;
+    overflow: hidden;
+    position: relative;
+    display: block;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 3px;
+    margin-right: 3px;
+    pointer-events: none;
+    display: inline;
+    vertical-align: middle;
+}
+
+.settingsContainer .options > div > button {
+    float: right;
+    padding: 0px;
+    border: transparent;
+    border-radius: 2px;
+    background-color: #17232e;
+    vertical-align: middle;
+}
+
+.settingsContainer .options > div > button > object {
+    max-width: 23px;
+    max-height: 23px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 3px;
+    margin-right: 3px;
+
+    pointer-events: none;
+}
+
+.settingsContainer .options > div {
+    /*max-width: 20px;*/
+    font-size: 20px;
+    vertical-align: middle;
+    color: #8da3c5;
+}
+
+.settingsContainer .approveChanges {
+    float: right;
+}
+
+.saveButton {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    border: 1px solid transparent;
+    border-radius: 3px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #3498db;
+    padding: 5px 20px 5px 20px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.saveButton:hover {
+    background: #ffffff;
+    color: #3498db;
+    text-decoration: none;
+}
+
+.settingsContainer .approveChanges > .savedStatus {
+    padding: 3px 13px 3px 13px;
+    background: transparent;
+    color: #ffffff;
+    text-decoration: none;
+    border: solid #3498db 3px;
+    cursor: default;
+}
+
+.settingsContainer .approveChanges > .savedStatus:hover {
+    padding: 3px 13px 3px 13px;
+    background: transparent;
+    color: #ffffff;
+    text-decoration: none;
+    border: solid #3498db 3px;
+    cursor: default;
+}
+
+.settingsContainer .approveChanges > .cancelButton {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    border: 1px solid transparent;
+    border-radius: 3px;
+    font-family: Arial;
+    color: #8da3c5;
+    font-size: 20px;
+    background: transparent;
+    padding: 3px 20px 3px 20px;
+    text-decoration: none;
+}
+
+.settingsContainer .approveChanges > .cancelButton:hover {
+    color: #3498db;
+    text-decoration: none;
+    border: solid #3498db 3px;
+}
+
+.settingCheckBox {
+    fill: #233040;
+    position: relative;
+    display: block;
+
+    max-width: 23px;
+    max-height: 23px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 3px;
+    margin-right: 3px;
+    pointer-events: none;
+}
+
+.settingCheckBoxOn {
+    fill: #3498db;
+}
+
+.jumbotron {
+    padding: 30px 15px;
+    margin-bottom: 30px;
+    background-color: #eee;
+    width: 800px;
+}
+
+.jumbotron, .jumbotron h1, .jumbotron .h1 {
+    color: #233040
+}
+
+.nav {
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none
+}
+
+a {
+    color: #3ca2e0;
+    text-decoration: none
+}
+
+a:hover, a:focus {
+    color: #1c7ab3;
+    text-decoration: underline
+}
+
+a:focus {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 2px solid #1e2c3a;
+    box-sizing: content-box;
+    height: 0
+}
+
+h1 small, .h1 small, h2 small, .h2 small, h3 small, .h3 small, h1 .small, .h1 .small, h2 .small, .h2 .small, h3 .small, .h3 .small {
+    font-size: 65%
+}
+
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small, .h3 small, .h4 small, .h5 small, .h6 small, h1 .small, h2 .small, h3 .small, h4 .small, h5 .small, h6 .small, .h1 .small, .h2 .small, .h3 .small, .h4 .small, .h5 .small, .h6 .small {
+    font-weight: 400;
+    line-height: 1;
+    color: #8da3c5
+}
+
+h1, .h1, h2, .h2, h3, .h3 {
+    margin-top: 20px;
+    margin-bottom: 10px
+}
+
+h4, .h4, h5, .h5, h6, .h6 {
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+h1, .h1 {
+    font-size: 36px
+}
+
+h2, .h2 {
+    font-size: 30px
+}
+
+h3, .h3 {
+    font-size: 24px
+}
+
+h4, .h4 {
+    font-size: 18px
+}
+
+h5, .h5 {
+    font-size: 14px
+}
+
+h6, .h6 {
+    font-size: 12px
+}
+
+* {
+    box-sizing: border-box
+}
+
+*:before, *:after {
+    box-sizing: border-box
+}
+
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+
+body {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff
+}
+
+html, body {
+    overflow: hidden
+}

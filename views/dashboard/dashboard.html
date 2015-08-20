@@ -1,0 +1,36 @@
+<div class=dashboard-page>
+    <div class=container-fluid>
+        <div class=row>
+            <div class="col-sm-3 col-md-3 sidebar">
+                <div class=text-center>
+                    <br><br><br><br>
+                    <img src=images/flat-avatar.png class=user-avatar>
+                    <h2 class=brand>{{ userName }}</h2>
+                </div>
+                <ul class="nav nav-sidebar">
+                    <li ng-class="{active: $state.includes('account')}">
+                        <a ui-sref=account>
+                            <svg-image id="myAccountIcon" class="settingCheckBox" src="images/account-img.svg"></svg-image>&nbsp;&nbsp;My Account
+                        </a>
+                    </li>
+                    <li ng-class="{active: $state.includes('profile')}">
+                        <a ui-sref=profile>
+                            <svg-image id="myProfileIcon" class="settingCheckBox" src="images/profile-img.svg"></svg-image>&nbsp;&nbsp;My Profile
+                        </a>
+                    </li>
+                    <li ng-class="{active: $state.includes('settings')}">
+                        <a ui-sref=settings>
+                            <svg-image id="settingsIcon" class="settingCheckBox" src="images/settings-img.svg"></svg-image>&nbsp;&nbsp;Settings
+                        </a>
+                    </li>
+                    <li ng-class="{active: $state.includes('login')}">
+                        <a ui-sref=login>
+                            <svg-image id="logoutIcon" class="settingCheckBox" src="images/log-out-img.svg"></svg-image>&nbsp;&nbsp;Logout
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-9 col-sm-offset-3 col-md-9 col-md-offset-2 main" ui-view=""></div>
+        </div>
+    </div>
+</div>

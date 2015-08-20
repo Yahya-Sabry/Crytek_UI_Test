@@ -1,0 +1,38 @@
+<div>
+    <h2>Settings
+        <small><br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In imperdiet ex sed orci loborties
+            porttitor.
+        </small>
+    </h2>
+    <br><br>
+    <h4>
+        GENERAL
+    </h4>
+
+    <hr>
+
+    <div class="settingsContainer">
+        <div class="options">
+            <div>{{ firstOption}}
+                <button id="launchWithPCButton" type="button" ng-click="launchWithPC()">
+                    <svg-image id="launchWithPC" class="settingCheckBox" src="images/checkmark.svg"></svg-image>
+                </button>
+            </div>
+            <br/>
+
+            <div>{{ secondOption }}
+                <button id="minimizeInTrayButton" type="button" ng-click="minimizeInTray()">
+                    <svg-image id="minimizeInTray" class="settingCheckBox" src="images/checkmark.svg"></svg-image>
+                </button>
+            </div>
+        </div>
+        <br/>
+
+        <div class="approveChanges">
+            <button class="cancelButton" ng-click="cancelUpdates()" ng-show="statusUpdated">CANCEL</button>
+            <button class="saveButton" ng-class="{savedStatus: updateSaved}" ng-click="saveUpdates()"
+                    ng-show="statusUpdated || updateSaved">SAVE
+            </button>
+        </div>
+    </div>
+</div>
